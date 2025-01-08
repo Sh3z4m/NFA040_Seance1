@@ -1,0 +1,53 @@
+<head>
+    <meta charset="utf8">
+</head>
+
+<div class="formulaire"> 
+<form action="#">
+    <label for="pseudo">Pseudo</label>
+    <input type="text" name="pseudo" class="input"><br>
+
+    <label for="password">Mot de passe</label>
+    <input type="password" name="password" class="input"><br>
+
+    <label for="password-retape">Ressaisir le mot de passe</label>
+    <input type="password" name="password-retape" class="input"><br>
+    <p>OS préféré</p>
+    <input type="radio" name="xp"><label for="xp">Windows XP</label><br>
+    <input type="radio" name="vista"><label for="vista">Windows Vista</label><br>
+    <input type="radio" name="osx"><label for="osx">Mac OS X</label><br>
+    <input type="radio" name="linux"><label for="linux">Linux</label><br>
+    <input type="radio" name="autre"><label for="autre">Autre</label><br>
+
+    <p>Vous possédez</p>
+    <input type="checkbox" name="bur"><label for="bur">Windows XP</label><br>
+    <input type="checkbox" name="port"><label for="port">Ordinateur portable</label><br>
+    <input type="checkbox" name="net"><label for="net">Netbook</label><br>
+    <input type="checkbox" name="tab"><label for="tab">Tablette (Pad)</label><br>
+
+    <p>Votre profession</p>
+    <select>
+        <option>Chomeur</option>
+        <option>Etudiant</option>
+        <option>Fonctionnaire</option>
+        <option>Privé</option>
+        <option>Retraite</option>
+    </select><br>
+
+    <input type="submit" value="S'inscrire !">
+</form>
+</div>
+
+<style>
+    #input {
+      border:3px black;  
+    }
+
+    .formulaire {
+        border: 1px solid;
+        margin-left:10%;
+        width:80%;
+        text-align: center;
+    }
+
+</style>
